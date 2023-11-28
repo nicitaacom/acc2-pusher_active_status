@@ -1,10 +1,14 @@
-# What inside? <br/> <sub> production url </sub>
+# What inside? <br/> <sub> no production url - pusher 'Connection closed' error</sub>
 
-![work in progress](https://i.imgur.com/2hHq62J.jpg)
+![minimal-reproduce-example](https://i.imgur.com/AxIPz7y.jpg)
 
 <br/>
 <br/>
 <br/>
+
+
+https://github.com/nicitaacom/acc2-pusher_active_status/assets/39565703/61ccb3f0-5511-496f-98c6-4bc071dbf379
+
 
 # Clone repository
 
@@ -15,7 +19,7 @@
 ## or Step 1.1 - clone repository (variant 2)
 
 ```
-git clone https://github.com/Nicitaa/22_aer
+git clone https://github.com/nicitaacom/acc2-pusher_active_status
 ```
 
 ## Step 1.2 - install deps
@@ -35,3 +39,5 @@ pnpm dev
 <br/>
 
 ## Step 2 - setup .env
+
+env already set up for you
