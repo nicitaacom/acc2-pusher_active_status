@@ -33,7 +33,7 @@ jobs:
         run: bun i
 
       - name: Building
-        run: bun build app/layout.tsx --outdir ./dist
+        run: pnpx build app/layout.tsx --outdir ./dist
         env:
           REACT_SUPABASE_URL: "https://random.supabase.co"
           REACT_SUPABASE_ANON_KEY: "123"
