@@ -1,5 +1,8 @@
 import PusherServer from "pusher"
 import PusherClient from "pusher-js"
+import Pusher from "pusher-js"
+
+Pusher.logToConsole = true
 
 export const pusherServer = new PusherServer({
   appId: process.env.PUSHER_APP_ID!,
